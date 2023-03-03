@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/design-portfolio-with-react/static/css/main.44f8b8b5.css",
-    "main.js": "/design-portfolio-with-react/static/js/main.151a57f6.js",
+    "main.js": "/design-portfolio-with-react/static/js/main.320b65ec.js",
     "static/js/787.346cf195.chunk.js": "/design-portfolio-with-react/static/js/787.346cf195.chunk.js",
     "index.html": "/design-portfolio-with-react/index.html",
     "main.44f8b8b5.css.map": "/design-portfolio-with-react/static/css/main.44f8b8b5.css.map",
-    "main.151a57f6.js.map": "/design-portfolio-with-react/static/js/main.151a57f6.js.map",
+    "main.320b65ec.js.map": "/design-portfolio-with-react/static/js/main.320b65ec.js.map",
     "787.346cf195.chunk.js.map": "/design-portfolio-with-react/static/js/787.346cf195.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.151a57f6.js"
+    "static/js/main.320b65ec.js"
   ]
 }
