@@ -6,7 +6,18 @@ function NavTabs() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="/"
+          to="/design-portfolio-with-react/"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Home
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink
+          to="/design-portfolio-with-react/about"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -17,25 +28,25 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="discover"
+          to="/design-portfolio-with-react/project"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Discover
+          Project
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink
-          to="search"
+          to="/design-portfolio-with-react/contact"
+          end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Search
+          Contact
         </NavLink>
       </li>
-      
     </ul>
   );
 }
