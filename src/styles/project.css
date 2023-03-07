@@ -1,0 +1,46 @@
+/* #projectGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "wdp food-app food-app"
+    "wdp password-gen readme-gen"
+    "weather-app team-build"
+    ;
+  }
+  
+  #wpd {
+    grid-area: Work Day Planner;
+    /* background-image: ""; */
+  
+  /* }
+  #food-app {
+    grid-area: Food Recipe App; */
+    /* background-image: url("../images/beds@2x.png"); */
+  /* }
+  
+  #password-gen {
+    grid-area: Password generator; */
+    /* background-image: url("../images/couch@2x.png"); */
+  /* }
+  
+  #weather-app {
+    grid-area: Weather App; */
+    /* background-image: url("../images/patio@2x.png"); */
+  /* } */
+  
+  /* #team-build {
+    grid-area: Team Builder; */
+    /* background-image: url("../images/desks@2x.png"); */
+  /* } */
+  
+  /* .projectGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  } */ 

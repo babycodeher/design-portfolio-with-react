@@ -1,6 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
+// const styles = {
+//   card: {
+//     display: flex,
+//     padding: 10%
+//   },
+// }
+
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">

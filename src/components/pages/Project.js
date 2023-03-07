@@ -1,21 +1,73 @@
 import React from "react";
+// import '../../styles/project.css';
+// import workPlanner from '../../images/stock-images/work-scheduler';
+import mainImg from '../../images/SC_Main.jpg';
 
 function Project() {
   return (
     <div>
-      <h1>Project Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div class="container text-center">
+        {/* <!-- Stack the columns on mobile by making one full-width and the other half-width --> */}
+        <div class="row">
+          <div class="card col-md-8">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Work Day Planner</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-6 col-md-4">
+            <img src="..." class="card-img-top" alt="..." />
+            {/* <div class="card-body"> */}
+            <h5 class="card-title">Food Recipe App</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        {/* <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop --> */}
+        <div class="row">
+          <div class="card col-6">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-6">
+            <img src="..." class="card-img-top" alt="..." />
+            {/* <div class="card-body"> */}
+            <h5 class="card-title">README Generator</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        {/* <!-- Columns are always 50% wide, on mobile and desktop --> */}
+        <div class="row">
+          <div class="card col-6 col-md-4">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Team Builder</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-md-8">
+            <img src="..." class="card-img-top" alt="..." />
+            {/* <div class="card-body"> */}
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        {/* </div> */}
+      </div>
     </div>
   );
 }
