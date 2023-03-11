@@ -2,60 +2,38 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 
-// const styles = {
-//   card: {
-//     display: flex,
-//     padding: 10%
-//   },
-// }
-
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <NavLink
+    <nav>
+        <ul className="flex space-x-40">
+          <li className="text-xl hover:text-gray-300"><NavLink
           to="/design-portfolio-with-react/"
           end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
         >
           Home
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
+        </NavLink></li>
+          <li className="text-xl hover:text-gray-300"><NavLink
           to="/design-portfolio-with-react/about"
           end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
+        //   className={({ isActive }) =>
+        //     isActive ? 'nav-link active' : 'nav-link'
+        //   }
         >
           About
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
+        </NavLink></li>
+          <li className="text-xl hover:text-gray-300"><NavLink
           to="/design-portfolio-with-react/project"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
         >
           Project
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
+        </NavLink></li>
+          <li className="text-xl hover:text-gray-300"><NavLink
           to="/design-portfolio-with-react/contact"
           end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
         >
           Contact
-        </NavLink>
-      </li>
-    </ul>
+        </NavLink></li>
+        </ul>
+      </nav>
   );
 }
 

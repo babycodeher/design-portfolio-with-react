@@ -1,81 +1,93 @@
 import React from "react";
-// import '../../styles/project.css';
-import workPlanner from '../../images/stock-images/work-scheduler.jpeg';
-import foodApp from '../../images/stock-images/food-app.jpeg';
-import pwGenImg from '../../images/stock-images/password-gen.jpeg';
-import readmeGen from '../../images/stock-images/readme-gen.jpeg';
-import teamImg from '../../images/stock-images/team-builder.jpeg';
-import weatherImg from '../../images/stock-images/weather-app.jpeg';
+import data from "../../project.json";
+import project from "../../project.json";
+
+
 
 function Project() {
   return (
-    <div>
-      <div class="container text-center">
-        {/* <!-- Stack the columns on mobile by making one full-width and the other half-width --> */}
-        <div class="row">
-          <div class="card col-6">
-            <img src={workPlanner} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Work Day Planner</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="card col-6">
-            <img src={foodApp} class="card-img-top" alt="..." />
-            <h5 class="card-title">Food Recipe App</h5>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
+    <div className="bg-gray-100">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+          <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
 
-
-        {/* <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop --> */}
-        <div class="row">
-          <div class="card col-6">
-            <img src={pwGenImg} class="card-img-top" alt="..." />
-            <h5 class="card-title">Password Generator</h5>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+            <div className="group relative">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg" alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
+              </div>
+              <h3 className="mt-6 text-xl text-gray-500">
+                <a href={project[0].livesite}>
+                  <span className="absolute inset-0"></span>
+                  {project[0].name}
+                </a>
+              </h3>
+              <p className="text-base font-semibold text-gray-900">Daily commute essentials</p>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="card col-6">
-            <img src={readmeGen} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">README Generator</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div className="group relative">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="h-full w-full object-cover object-center" />
+              </div>
+              <h3 className="mt-6 text-xl text-gray-500">
+                <a href={project[1].livesite}>
+                  <span className="absolute inset-0"></span>
+                  {project[1].name}
+                </a>
+              </h3>
+              <p className="text-base font-semibold text-gray-900">Work from home accessories</p>
             </div>
-          </div>
-        </div>
 
-
-        {/* <!-- Columns are always 50% wide, on mobile and desktop --> */}
-        <div class="row">
-          <div class="card col-6">
-            <img src={teamImg} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Team Builder</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div className="group relative">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg" alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
+              </div>
+              <h3 className="mt-6 text-xl text-gray-500">
+                <a href={project[2].livesite}>
+                  <span className="absolute inset-0"></span>
+                  {project[2].name}
+                </a>
+              </h3>
+              <p className="text-base font-semibold text-gray-900">Daily commute essentials</p>
             </div>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="card col-6">
-            <img src={weatherImg} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Team Builder</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div className="group relative">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg" alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant." className="h-full w-full object-cover object-center" />
+              </div>
+              <h3 className="mt-6 text-xl text-gray-500">
+                <a href={project[3].livesite}>
+                  <span className="absolute inset-0"></span>
+                  {project[3].name}
+                </a>
+              </h3>
+              <p className="text-base font-semibold text-gray-900">Journals and note-taking</p>
+            </div>
+
+            <div className="group relative">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="h-full w-full object-cover object-center" />
+              </div>
+              <h3 className="mt-6 text-xl text-gray-500">
+                <a href={project[4].livesite}>
+                  <span className="absolute inset-0"></span>
+                  {project[4].name}
+                </a>
+              </h3>
+              <p className="text-base font-semibold text-gray-900">Work from home accessories</p>
+            </div>
+
+            <div className="group relative">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg" alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
+              </div>
+              <h3 className="mt-6 text-xl text-gray-500">
+                <a href={project[5].livesite}>
+                  <span className="absolute inset-0"></span>
+                  {project[5].name}
+                </a>
+              </h3>
+              <p className="text-base font-semibold text-gray-900">Daily commute essentials</p>
             </div>
           </div>
         </div>
