@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Food Recipe App",
+        "stockImage": "../../images/stock-images/food-app.jpeg",
+        "github": "https://github.com/shaky411/Project-1",
+        "livesite": "https://shaky411.github.io/Project-1/"
+    },
+    {
+        "id": 2,
+        "name": "Team Builder",
+        "stockImage": "../../images/stock-images/team-builder.jpeg",
+        "github": "https://github.com/babycodeher/Team-Info-Generator"
+    },
+    {
+        "id": 3,
+        "name": "Weather Dashboard",
+        "stockImage": "../../images/stock-images/weather-app.jpeg",
+        "github": "https://github.com/babycodeher/weather-dashboard",
+        "livesite": "https://babycodeher.github.io/weather-dashboard/"
+    },
+    {
+        "id": 4,
+        "name": "Work Day Planner",
+        "stockImage": "../../images/stock-images/work-scheduler.jpeg",
+        "github": "https://github.com/babycodeher/Work-day-scheduler",
+        "livesite": "https://babycodeher.github.io/Work-day-scheduler/"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "stockImage": "../../images/stock-images/password-gen.jpeg",
+        "github": "https://github.com/babycodeher/Password-Generator",
+        "livesite": "https://babycodeher.github.io/Password-Generator/"
+    },
+    {
+        "id": 6,
+        "name": "README Generator",
+        "stockImage": "../../images/stock-images/readme-gen.jpeg",
+        "github": " https://github.com/babycodeher/readME-generator"
+    }
+]
